@@ -52,7 +52,9 @@
             Effective Solutions <br />
             for Your Business
           </h1>
-          <button type="button" class="hero-btn">Order Service</button>
+          <button type="button" class="hero-btn" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
       <section class="benefits-section">
@@ -508,5 +510,15 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="modal-closer" data-modal-close>
+          <svg class="modal-svg" height="8px" width="8px">
+            <use href="./images/icons.svg#icon-vector"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
