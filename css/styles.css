@@ -94,6 +94,18 @@ header .container {
   color: var(--navy-blue);
   padding: 24px 0;
   transition: color var(--tra);
+  position: relative;
+}
+
+.header-link.current::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  left: 0;
+  bottom: 0;
+  background-color: var(--ocean);
 }
 
 .header-link:hover,
@@ -426,7 +438,7 @@ footer .container {
   background: var(--cloud);
   border: 1px solid var(--cornflower);
   border-radius: 4px;
-  transition: color var(--tra), background-color var(--tra);
+  transition: color var(--tra), background-color var(--tra), border var(--tra);
 }
 
 .filter-btn:hover,
@@ -534,6 +546,7 @@ footer .container {
   right: 24px;
   width: 24px;
   height: 24px;
+  padding-bottom: 1.5px;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: var(--cornflower);
