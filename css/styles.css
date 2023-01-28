@@ -69,7 +69,6 @@ header .container {
 .header-logo span {
   color: var(--iris);
 }
-
 .header-navigation {
   display: flex;
   align-items: center;
