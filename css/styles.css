@@ -92,7 +92,7 @@ header .container {
 .header-link {
   font-weight: 500;
   color: var(--navy-blue);
-  padding: 24px 0;
+  padding: 29px 0;
   transition: color var(--tra);
   position: relative;
 }
@@ -195,6 +195,8 @@ header .container {
   height: 112px;
   padding: 24px 100px;
   padding-bottom: 8px;
+  border-radius: 4px;
+  margin-bottom: 8px;
 }
 
 .benefits-header {
